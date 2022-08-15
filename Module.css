@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  min-width: 500px;
+}
+header {
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  background-color: rgba(101, 176, 217, 0.573);
+}
+.all-canvas {
+  width: 90%;
+  padding: 20px;
+  border: 2px solid black;
+}
+.main-container {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 70%;
+}
+header::first-letter {
+  color: rgb(0, 196, 0);
+}
+.btn-container,
+.input-container {
+  display: flex;
+  padding: 20px 65px;
+  align-items: center;
+  justify-content: end;
+}
+.btn-container .reset-btn,
+.btn {
+  padding: 10px 30px;
+  background-color: rgba(136, 214, 251, 0.463);
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 3px;
+  transition: all 0.2s linear;
+}
+.btn {
+  padding: 5px 20px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.btn-container .reset-btn:hover,
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.03) translateY(-3px);
+}
+.canvas-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.canvas {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.arrow {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+input {
+  background: none;
+  border: 1px solid black;
+  padding: 5px 10px;
+  font-size: 1rem;
+  border-radius: 3px;
+  outline: none;
+}
+label {
+  padding: 0 20px;
+}
